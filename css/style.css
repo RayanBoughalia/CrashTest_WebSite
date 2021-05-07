@@ -1,0 +1,9 @@
+.body {
+	background: rgb(128, 128, 128)
+}
+
+@media (max-width: 500px) {
+	body {
+		background: rgb(70, 70, 70)
+	}
+}
