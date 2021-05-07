@@ -1,5 +1,5 @@
 td {
-	border: 2 solid black;
+	border-color: black;
 }
 @media (max-width: 500px) {
 	body {
