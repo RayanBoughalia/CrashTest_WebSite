@@ -8,6 +8,13 @@
 	height: 50px;
 }
 
+p {
+	width: 70px;
+	height: 70px;
+	background: grey;
+	border-radius: 8px;
+}
+
 @media (max-width: 500px) {
 	body {
 		background: rgb(70, 70, 70)
