@@ -1,6 +1,5 @@
-var header = document.querySelector('.body') 
+var button = document.querySelector('#button');
 
-header.addEventListener("click", () => {
-    document.querySelector('.sq1').style.backgroundColor = 'grey'
+button.addEventListener("click", () => {
+    document.querySelector('#button').innerHTML = prompt('button name\'s: ');
 }, false)
-
