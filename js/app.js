@@ -1,9 +1,9 @@
 const button = document.querySelector('#button');
 
 button.addEventListener("click", () => {
-    document.querySelector('#button').innerHTML = prompt('button name\'s: ');
+    var name = prompt('button name\'s: ');
+    document.querySelector('#button').innerHTML = name; 
+    if (name == "hide") {
+        button.hidden = true
+    }
 }, false)
-
-if (button.innerHTML == "hide") {
-    button.hidden = true
-}
