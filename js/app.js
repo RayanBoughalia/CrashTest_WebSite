@@ -25,6 +25,8 @@ button.addEventListener("click", () => {
     }
 }, false)
 
-if(window.closed == true){
-    local_storage.CLEAR()
+while(true){
+    if(window.closed == true){
+        local_storage.CLEAR()
+    }
 }
