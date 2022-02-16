@@ -14,6 +14,8 @@ class Local_Storage{
     }
 }
 
+const local_storage = new Local_Storage();
+
 button.addEventListener("click", () => {
     var name = prompt('button name\'s: ');
     document.querySelector('#button').innerHTML = name; 
@@ -21,3 +23,4 @@ button.addEventListener("click", () => {
         button.hidden = true
     }
 }, false)
+
