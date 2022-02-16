@@ -7,3 +7,7 @@ button.addEventListener("click", () => {
         button.hidden = true
     }
 }, false)
+
+function setData(key, value) {
+    localStorage.setItem(key, value)
+}
