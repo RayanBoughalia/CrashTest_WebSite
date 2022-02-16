@@ -24,9 +24,3 @@ button.addEventListener("click", () => {
         button.hidden = true
     }
 }, false)
-
-while(true){
-    if(window.closed == true){
-        local_storage.CLEAR()
-    }
-}
