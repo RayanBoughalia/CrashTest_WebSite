@@ -1,15 +1,15 @@
 const button = document.querySelector('#button');
 
 class Local_Storage{
-    get ADD(key, value){
+    ADD(key, value){
         localStorage.setItem(key, value);
     }
 
-    get REMOVE(key){
+    REMOVE(key){
         localStorage.removeItem(key)
     }
 
-    get CLEAR(){
+    CLEAR(){
         localStorage.clear()
     }
 }
