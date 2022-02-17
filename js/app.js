@@ -39,5 +39,5 @@ button.addEventListener("click", () => {
 
 window.addEventListener('beforeunload', function (e) {
     e.preventDefault();
-    e.returnValue = '';
+    e.returnValue = 'ehllo';
 }, false);
