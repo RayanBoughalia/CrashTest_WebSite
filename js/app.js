@@ -10,7 +10,7 @@ class Local_Storage{
         localStorage.removeItem(key)
     }
 
-    clear(){
+    get clear(){
         localStorage.clear()
     }
 }
@@ -33,6 +33,6 @@ window.addEventListener('beforeunload', e => {
     window.alert('r u sure?');
     local_storage.add('windowsStatue', 'close at '+Date())
     if(e.defaultPrevented == true){
-        alert('hello')
+        local_storage.clear()
     }
 });
