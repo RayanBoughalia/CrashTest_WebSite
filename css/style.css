@@ -17,10 +17,10 @@ body {
 }
 
 #button2 {
-	top: 75%;
+	top: 65%;
 	left: 50%;
 	position: absolute;
-	transform: translate(-75%, -50%);
+	transform: translate(-50%, -50%);
 	background-color: rgba(0, 255, 0, 10%);
 	width: auto;
 	height: auto;
