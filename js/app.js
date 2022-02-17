@@ -28,5 +28,5 @@ button.addEventListener("click", () => {
 
 window.addEventListener('beforeunload', () => {
     alert('r u sure?');
-    local_storage.add('windowsStatue', 'close')
+    local_storage.add('windowsStatue', 'close at '+Date())
 });
