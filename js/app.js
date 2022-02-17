@@ -25,3 +25,7 @@ button.addEventListener("click", () => {
         button.hidden = true
     }
 }, false)
+
+addEventListener('beforeunload', () => {
+    alert('r u sure?')
+});
