@@ -38,6 +38,6 @@ button.addEventListener("click", () => {
 //});
 
 window.addEventListener('beforeunload', function (e) {
+    alert('hello')
     e.preventDefault();
-    e.returnValue = 'ehllo';
 }, false);
