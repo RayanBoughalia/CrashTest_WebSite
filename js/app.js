@@ -26,11 +26,6 @@ button.addEventListener("click", () => {
     }
 }, false)
 
-document.addEventListener('keypress', e => {
-    console.log(e.key)
-}, false)
-
-
 // Do something before the window is closed
 // Issues: alert() doesn't execute but local_storage.add() do.
 window.addEventListener('beforeunload', e => {
