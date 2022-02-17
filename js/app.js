@@ -29,13 +29,13 @@ button.addEventListener("click", () => {
 
 // Do something before the window is closed
 // Issues: alert() doesn't execute but local_storage.add() do.
-window.addEventListener('beforeunload', e => {
-    window.alert('r u sure?');
-    local_storage.add('windowsStatue', 'close at '+Date())
-    if(e.defaultPrevented == true){
-        alert('hello')
-    }
-});
+//window.addEventListener('beforeunload', e => {
+//    window.alert('r u sure?');
+//    local_storage.add('windowsStatue', 'close at '+Date())
+//    if(e.defaultPrevented == true){
+//        alert('hello')
+//    }
+//});
 
 window.addEventListener('beforeunload', function (e) {
     e.preventDefault();
