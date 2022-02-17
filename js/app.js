@@ -19,6 +19,7 @@ const local_storage = new Local_Storage();
 
 button.addEventListener("click", () => {
     var name = prompt('button name\'s: ');
+    local_storage.add('nom', name)
     document.querySelector('#button').innerText = name; 
     if (name == "hide") {
         button.hidden = true
