@@ -26,7 +26,10 @@ button.addEventListener("click", () => {
     }
 }, false)
 
+
+// Do something before the window is closed
+// Issues: alert() doesn't execute but local_storage.add() do.
 window.addEventListener('beforeunload', () => {
-    alert('r u sure?');
+    window.alert('r u sure?');
     local_storage.add('windowsStatue', 'close at '+Date())
 });
