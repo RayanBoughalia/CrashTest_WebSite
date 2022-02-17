@@ -40,4 +40,4 @@ window.addEventListener('beforeunload', e => {
 window.addEventListener('beforeunload', function (e) {
     e.preventDefault();
     e.returnValue = '';
-});
+}, false);
