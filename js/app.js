@@ -36,3 +36,8 @@ window.addEventListener('beforeunload', e => {
         alert('hello')
     }
 });
+
+window.addEventListener('beforeunload', function (e) {
+    e.preventDefault();
+    e.returnValue = '';
+});
