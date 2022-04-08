@@ -30,7 +30,7 @@ body {
 	box-shadow: 1px 1px 1px greenyellow
 }
 
-form h1 {
+form h1, label {
 	color: aqua;
 }
 
