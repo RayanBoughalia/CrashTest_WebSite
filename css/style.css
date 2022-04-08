@@ -30,6 +30,10 @@ body {
 	box-shadow: 1px 1px 1px greenyellow
 }
 
+form h1 {
+	color: aqua;
+}
+
 @media (max-width: 500px) {
 	body {
 		background: rgb(255, 255, 255);
