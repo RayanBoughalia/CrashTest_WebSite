@@ -21,9 +21,13 @@ button.addEventListener("click", () => {
     var name = prompt('button name\'s: ');
     local_storage.add('nom', name)
     document.querySelector('#button1').innerText = name; 
-    if (name == "hide") {
-        button.hidden = true
-    }
+		if(name){
+				if(name == "hide"){
+						button.hidden = true
+				}
+		}else{
+				document.querySelector('#button1').innerText = "null"
+		}
 }, false)
 
 // Do something before the window is closed
