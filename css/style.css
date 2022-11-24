@@ -36,6 +36,6 @@ form h1, label {
 
 @media (max-width: 500px) {
 	body {
-		background: rgb(255, 255, 255);
+		background: greenyellow;
 	}
 }
