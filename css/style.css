@@ -37,6 +37,7 @@ form h1, label {
 @media (max-width: 500px) {
 	body {
 		background: #22A39F;
+		transition:background 2s;
 	}
 	form h1, label {
 	color: #434242;
