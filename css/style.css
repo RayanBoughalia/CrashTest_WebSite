@@ -35,6 +35,11 @@ form h1, label {
 	color: #F3EFE0;
 }
 
+form * {
+		left: 50%;
+		transform: translateX(-50%);
+}
+
 @media (max-width: 500px) {
 	body {
 		background: #22A39F;
