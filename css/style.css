@@ -43,5 +43,6 @@ form h1, label {
 	form h1, label {
 	color: #434242;
 	transform: rotate(-90deg);
+	transition: transform 1s;
 	}
 }
