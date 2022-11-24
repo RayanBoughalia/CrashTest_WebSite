@@ -1,6 +1,6 @@
 body {
 	background-color: rgb(54, 54, 54); /* color darkgrey  */
-	transition: background-color 2s;
+	transition: background-color 500ms;
 }
 
 #button1 {
@@ -38,7 +38,7 @@ form h1, label {
 @media (max-width: 500px) {
 	body {
 		background: #22A39F;
-		transition:background 2s;
+		transition:background 500ms;
 	}
 	form h1, label {
 	color: #434242;
