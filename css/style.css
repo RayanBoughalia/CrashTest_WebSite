@@ -1,5 +1,6 @@
 body {
 	background-color: rgb(54, 54, 54); /* color darkgrey  */
+	transition: background-color 2s;
 }
 
 #button1 {
