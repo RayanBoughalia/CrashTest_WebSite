@@ -30,6 +30,10 @@ button.addEventListener("click", () => {
 		}
 }, false)
 
+document.querySelector('#button2').addEventListener("click", () =>{
+	document.querySelector("#button1").hidden = !document.querySelector("#button1").hidden
+});
+
 // Do something before the window is closed
 // Issues: alert() doesn't execute but local_storage.add() do.
 window.addEventListener('beforeunload', e => {
